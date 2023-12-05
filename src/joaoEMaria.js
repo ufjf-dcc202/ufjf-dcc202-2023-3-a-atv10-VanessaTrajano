@@ -9,5 +9,22 @@ function getMaria(){
     return joao
 }
 
+function setJoao(valor){
+   if(valor >=0){
+       joao = valor
+   } else {
+       joao = 0
+   }
+}
 
-export {getJoao, getMaria}
+function setMaria(valor){
+   if(valor >= 0){
+       maria = valor
+   } else {
+       maria = 0
+   }
+}
+
+
+
+export {getJoao, getMaria, setJoao, setMaria}
